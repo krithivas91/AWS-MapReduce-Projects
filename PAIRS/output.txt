@@ -1,0 +1,102 @@
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+[𧒽崗站] neighbor       [ライ崗駅]}
+{word=[Jeunesses] neighbor=[Musicales]}
+{word=[Kyaukpu] neighbor=[21°30]}
+{word=[Kyaukpu] neighbor=[21°35]}
+{word=[Kyaukpu] neighbor=[21°41]}
+{word=[Kyaukpu] neighbor=[21°44]}
+{word=[Kyaukpu] neighbor=[E]}
+{word=[Kyaukpu] neighbor=[Kyaukka]}
+{word=[Kyaukpu] neighbor=[Kyaukmyaung]}
+{word=[Kyaukpu] neighbor=[Kyaukpyet]}
+{word=[Kyaukpu] neighbor=[Kyaukpôn]}
+{word=[Kyaukpu] neighbor=[Kyauksagwe]}
+{word=[Kyaukpu] neighbor=[Kyauktalôn]}
+{word=[Kyaukpu] neighbor=[o]}
+{word=[Kyaukpya] neighbor=[17°42]}
+{word=[Kyaukpya] neighbor=[18°3]}
+{word=[Kyaukpya] neighbor=[Auk]}
+{word=[Kyaukpya] neighbor=[E]}
+{word=[Kyaukpya] neighbor=[Kyaukkegyi]}
+{word=[Kyaukpya] neighbor=[Kyauktan]}
+{word=[Kyaukpya] neighbor=[Kyeingyaung]}
+{word=[Kyaukpya] neighbor=[myauk]}
+{word=[Kyaukpyagale] neighbor=[Kyagwin]}
+{word=[Kyaukpyagale] neighbor=[Kyaungzu]}
+{word=[Kyaukpyale] neighbor=[Kyaukpadaung]}
+{word=[Kyaukpyale] neighbor=[Kyaukpyok]}
+{word=[Kyaukpyet] neighbor=[Kyaukpu]}
+{word=[Kyaukpyet] neighbor=[Kyauktalon]}
+{word=[Kyaukpyintha] neighbor=[Kyaukpon]}
+{word=[Kyaukpyintha] neighbor=[Kyeinnisan]}
+{word=[Kyaukpyok] neighbor=[Kyaukpyale]}
+{word=[Kyaukpyok] neighbor=[Kyauksaung]}
+{word=[Kyaukpyokkon] neighbor=[Kyaukpadaung]}
+{word=[Kyaukpyokkon] neighbor=[Kyaukse]}
+{word=[Kyaukpyudaung] neighbor=[Kyaukoywa]}
+{word=[Kyaukpyudaung] neighbor=[Kyauksaungsan]}
+{word=[Kyaukpôn] neighbor=[Kyauko]}
+{word=[Kyaukpôn] neighbor=[Kyaukpu]}
+{word=[Kyaukpôn] neighbor=[Kyaukôk]}
+{word=[Kyaukpôn] neighbor=[alē]}
+{word=[Kyaukpôndaung] neighbor=[Kyaukpon]}
+{word=[Kyaukpôndaung] neighbor=[alē]}
+{word=[Kyauksagwe] neighbor=[Kyaukpu]}
+{word=[Kyauksagwe] neighbor=[Kyauktwin]}
+{word=[Kyauksalitkon] neighbor=[Kyaman]}
+{word=[Kyauksalitkon] neighbor=[Kyauktaing]}
+{word=[Kyauksauk] neighbor=[Kyaukkwet]}
+{word=[Kyauksauk] neighbor=[Kyauktaing]}
+{word=[Kyauksaung] neighbor=[Kyaukhlega]}
+{word=[Kyauksaung] neighbor=[Kyaukmyaung]}
+{word=[Kyauksaung] neighbor=[Kyaukpyok]}
+{word=[Kyauksaung] neighbor=[Kyauktaing]}
+{word=[Kyauksaung] neighbor=[Kyiywa]}
+{word=[Kyauksaungsan] neighbor=[Kyaukpyudaung]}
+{word=[Kyauksaungsan] neighbor=[Kyaunggon]}
+{word=[Kyauksaye] neighbor=[Kyauktu]}
+{word=[Kyauksaye] neighbor=[Kyaukôk]}
+{word=[Kyauksayit] neighbor=[E]}
+{word=[Kyauksayit] neighbor=[Kyauktaga]}
+{word=[Kyauksayitkon] neighbor=[Kyatkon]}
+{word=[Kyauksayitkon] neighbor=[Kyauktan]}
+{word=[Kyaukse] neighbor=[Kyaukpyokkon]}
+{word=[Kyaukse] neighbor=[Kyauktan]}
+{word=[Kyaukset] neighbor=[Kyaukpe]}
+{word=[Kyaukset] neighbor=[Kyauksitpon]}
+{word=[Kyauksin] neighbor=[Kyando]}
+{word=[Kyauksin] neighbor=[Kyawtha]}
+{word=[Kyauksit] neighbor=[Kyaukmyaung]}
+{word=[Kyauksit] neighbor=[Kyaukswe]}
+{word=[Kyauksitpon] neighbor=[Kyaukset]}
+{word=[Kyauksitpon] neighbor=[Kyauktan]}
+{word=[Kyaukson] neighbor=[Kyaunggôn]}
+{word=[Kyaukson] neighbor=[o]}
+{word=[Kyauksu] neighbor=[Kyaungna]}
+{word=[Kyauksu] neighbor=[Na]}
+{word=[Kyaukswe] neighbor=[Kyauksit]}
+{word=[Kyaukswe] neighbor=[Kyauktu]}
+{word=[Kyauksègan] neighbor=[Kyatkan]}
+{word=[Kyauksègan] neighbor=[Kyaunggon]}
+{word=[Kyauktada] neighbor=[Rangoon]}
+{word=[Kyauktada] neighbor=[Township]}
+{word=[Kyauktaga] neighbor=[Communities]}
+{word=[Kyauktaga] neighbor=[E]}
+{word=[Kyauktaga] neighbor=[Google]}
+{word=[Kyauktaga] neighbor=[Kyaukkwet]}
+{word=[Kyauktaga] neighbor=[Kyaukmasin]}
+{word=[Kyauktaga] neighbor=[Kyauksayit]}
+
+

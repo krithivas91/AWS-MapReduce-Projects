@@ -1,0 +1,107 @@
+Pseudo Distributed mode from the scratch 
+
+Create an Amazon Linux instance in the AWS with 16GB space requirement. 
+
+1) Accessing the Amazon Linux AMI
+
+krithivass-MacBook-Pro:Downloads vasu$ ssh -i rambo1.pem ec2-user@52.38.53.29
+
+2) Download hadoop-2.6.0 into the linux instance 
+
+wget http://mirrors.advancedhosters.com/apache/hadoop/common/hadoop-2.6.0/hadoop-2.6.0.tar.gz -P ~/Downloads
+
+3) Move the files to /usr/local/hadoop
+
+sudo tar zxvf ~/Downloads/hadoop-* -C /usr/local
+sudo mv /usr/local/hadoop-* /usr/local/hadoop
+
+4) Configure the core-site.xml 
+
+cd etc/hadoop
+sudo vi core-site.xml
+
+Include the below configurations in the core-site.xml
+
+<configuration>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://localhost:9000</value>
+    </property>
+</configuration>
+
+5) Configure etc/hadoop/hdfs.xml
+
+Include the below configurations in the hdfs-site.xml
+
+<configuration>
+    <property>
+        <name>dfs.replication</name>
+        <value>1</value>
+    </property>
+</configuration>
+
+
+6) Format the namenode 
+
+bin/hdfs namenode -format
+
+7) Start the Namenode and the Datanode daemon.
+
+sbin/start-dfs.sh
+
+8) Send the text file from the localhost to the instance 
+
+krithivass-MacBook-Pro:Downloads vasu$ scp -i rambo1.pem /Users/vasu/Desktop/100KWikiText.txt ec2-user@52.38.53.29:/usr/local/hadoop
+
+9) Create a HDFS input directory to store the 100KWikiText.txt
+bin/hdfs dfs -mkdir /input
+bin/hdfs dfs -put 100KWikiText.txt /input/input.txt
+
+10) Execute the JAR file 
+hadoop jar Pairs.jar findPairs /input output
+
+11) View the Output
+
+hadoop fs -cat /output/part-r-00000
+
+Fully Distributed mode
+
+1) Create multiple Amazon Linux AMI instances in AWS. 
+   Install Hadoop on all the instances as done in the above steps.
+
+2) Configure the hadoop/etc/hadoop/core-site.xml
+
+<configuration>
+<property>
+<name>fs.defaultFS</name> <value>hdfs://master:8020/</value>
+</property>
+<property>
+<name>hadoop.temp.dir</name>
+<value>$HOME/hdfs</value>
+</property>
+</configuration>
+
+3) Configure the hadoop/etc/hadoop/hdfs-site.xml
+
+change the value based on number of nodes
+
+<configuration>
+<property>
+<name>dfs.replication</name> <value>3</value>
+</property>
+<property>
+<name>dfs.permissions</name>
+<value>false</value>
+</property> </configuration>
+
+4) Configure the hadoop/etc/hadoop/mapred-site.xml
+
+<configuration>
+<property>
+<name>mapred.job.tracker</name>
+<value>hdfs://master:8021</value>
+</property>
+</configuration>
+
+5) Repeat the above steps as mentioned in psuedo distributed mode to run the code.
+

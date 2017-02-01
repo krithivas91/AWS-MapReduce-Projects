@@ -1,0 +1,18 @@
+1) 
+Mapper
+Input : LongWritable, Text
+Output : WordPair, IntWritable
+
+Reducer
+Input : WordPair, IntWritable
+Output : Text, Text
+
+2)
+Number of VM Instances = 2
+Number of Mappers = 1
+Number of Reducers = 1
+
+3) 
+Running time (Pseudo Distributed Mode ) is 649 sec.
+Running time (Fully Distributed Mode ) is 610 sec.
+Running time (Fully Distributed Mode ) is 677 sec.
